@@ -1,0 +1,12 @@
+[
+{
+    "fields": {
+        "label": "Example Place 1",
+        "sameAs": "http://example.org/place/1/",
+        "type": "1",
+        "geo": "SRID=4326;POLYGON ((0 0, 0 10, 10 10, 10 0, 0 0))"
+    },
+    "model": "dcp.place",
+    "pk": 1
+}
+]
