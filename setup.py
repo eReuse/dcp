@@ -16,6 +16,7 @@ setup(
                     'they have is their geolocation.'),
     url = 'https://github.com/eReuse/dcp',
     author = 'eReuse team',
+    install_requires=['djangorestframework-gis'],
     classifiers = [
         'Development Status :: 2 - Pre-Alpha',
         'Environment :: Web Environment',
