@@ -18,3 +18,6 @@ class Place(models.Model):
     type = models.CharField(max_length=16, choices=TYPES)
     
     objects = gis_models.GeoManager()
+    
+    def __str__(self):
+        return "{0} ({1})".format(self.label, self.type)
